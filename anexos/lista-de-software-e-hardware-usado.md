@@ -4,10 +4,12 @@ O software usado foi o seguinte:
 
 Foi usado um computador com as seguintes características:&#x20;
 
-Sistema Operativo:&#x20;
+Sistema Operativo: Windows 10 Pro
 
-Processador:&#x20;
+Processador: AMD Ryzen 5 3600 6-Core Processor 3,60 GHz
 
-Memória RAM:&#x20;
+Memória RAM: 16 GB
 
-Disco: Placa Gráfica:
+Disco: 465 GB
+
+Placa Gráfica: Gráficos integrados
