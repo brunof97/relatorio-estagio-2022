@@ -15,7 +15,6 @@ if [ -d "$GITBOOK_REP" ]; then
       sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//'| \
       xargs cat | \
       pandoc -f markdown --variable fontsize=10pt \
-              --variable=geometry:b5paper \
               --variable mainfont="Arial" \
              --variable documentclass=scrbook --toc --pdf-engine=xelatex -o book.pdf
   else

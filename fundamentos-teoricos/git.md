@@ -1,3 +1,4 @@
+
 # Git
 
 O Git (Global Information Tracker) é um sistema de controlo de versões grátis e open source, desenhado para fazer o controlo de versões em todo o tipo de projetos desde projetos pequenos a projetos mais complexos. Foi desenvolvido em 2005 por Linus Torvalds, criador do sistema operativo Linux.

@@ -20,7 +20,7 @@
   * [Funções genéricas](apresentacao-do-local-de-trabalho/funcoes-genericas.md)
   * [Áreas funcionais](apresentacao-do-local-de-trabalho/areas-funcionais.md)
 * [Fundamentos Teóricos](fundamentos-teoricos/README.md)
-  * [C#](fundamentos-teoricos/c.md)
+  * [Csharp](fundamentos-teoricos/c.md)
   * [Unity](fundamentos-teoricos/unity.md)
   * [Git](fundamentos-teoricos/git.md)
 * [Desenvolvimento do Trabalho de Estágio](desenvolvimento-do-trabalho-de-estagio/README.md)
