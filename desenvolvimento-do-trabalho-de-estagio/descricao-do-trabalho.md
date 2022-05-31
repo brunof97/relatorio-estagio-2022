@@ -10,7 +10,7 @@ Durante  a minha estadia na Cooperativa de Profissionais de Desenvolvimento de S
 
 Para a realização do presente relatório de estágio, foi-me  sugerido a criação de um GibtBook, de modo a que os orientadores conseguissem ver as alterações que eram feitas á medida que o relatório ia sendo escrito. Para isso criei um novo repositório no meu GitHub no qual existem dois branches, master e develop. Á medida que ia fazendo alterações no GitBook, dava merge das alterações feitas no relatório para develop e fazia um Pull Request, colocando os orientadores como reviwers para poderem ver al alterações feitas e se necessário fazer algum comentário sobre o que pode ser melhorado. Quando o Pull Request é aceite, as alteraçoes são efetuadas no branch master.
 
-![Esquema de branches do repositório do relatório de estágio](../.gitbook/assets/github.png)
+![Esquema de  branches](../.gitbook/assets/github.png)
 
 ### Quality Assurance (QA) e Bug fixing
 
