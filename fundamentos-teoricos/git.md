@@ -1,6 +1,6 @@
 # Git
 
-O Git (Global Information Tracker) é um sistema de controlo de versões grátis e open source, desenhado para fazer o controlo de versões em todo o tipo de projetos desde projetos pequenos a projetos mais complexos. Foi desenvolvido em 2005 por Linus Torvalds, criador do sistema operativo Linux.
+O Git é um sistema de controlo de versões grátis e open source, desenhado para fazer o controlo de versões em todo o tipo de projetos desde projetos pequenos a projetos mais complexos. Foi desenvolvido em 2005 por Linus Torvalds, criador do sistema operativo Linux.
 
 ### Porquê usar o Source Control
 
@@ -16,9 +16,9 @@ Com isto existem alguns benefícios em trabalhar com Source Control:
 
 Existem dois tipos de autenticação para o GIT, HTTPS e SSH. Com o HTTPS temos uma autenticação feita de uma forma tradicional com utilizador e password, já com SSH temos uma autenticação feita com uma SSH key. Existem dosi tipos de SSH keys, as publicas e as privadas. As chaves privadas apenas são conhecidas pelo utilizador, enquanto que as publicas podem ser partilhadas com o servidor que o utilizador se quer conectar.
 
-### Porque não fazer alterações em Master
+### Porque não fazer alterações no Main Trunk
 
-Não se deve trabalhar em Master pois quando forem feitas alterações podem criar conflitos com alterações que estão a ser feitas por outros developers ao mesmo tempo. Por isso é importante o conceito de branch que permite que várias pessoas trabalhem no mesmo projeto em simultâneo sem haver problemas de prejudicar o trabalho uns dos outros.
+Não se deve trabalhar no Main Trunk, na maioria dos casos conhecido por master, pois quando forem feitas alterações podem criar conflitos com alterações que estão a ser feitas por outros developers ao mesmo tempo. Por isso é importante o conceito de branch que permite que várias pessoas trabalhem no mesmo projeto em simultâneo sem haver problemas de prejudicar o trabalho uns dos outros.
 
 ### Branch
 
