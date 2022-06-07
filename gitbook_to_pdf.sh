@@ -8,15 +8,21 @@ if [ -d "$GITBOOK_REP" ]; then
 
   echo "Entering directory '$GITBOOK_REP'..."
   cd $GITBOOK_REP
+  python3 unnest-images.py
   if [ -f "$SUMMARY_FILE" ]; then
-    # read summary and get texts by order in a single big file
-    pandoc $SUMMARY_FILE -t html | \
+    pandoc $SUMMARY_FILE -t html --wrap=none | \
+      grep -o '<a href=['"'"'"][^"'"'"']*['"'"'"]'
+  fi
+
+  echo "-------------------";
+  if [ -f "$SUMMARY_FILE" ]; then
+    pandoc $SUMMARY_FILE -t html --wrap=none | \
       grep -o '<a href=['"'"'"][^"'"'"']*['"'"'"]' | \
       sed -e 's/^<a href=["'"'"']//' -e 's/["'"'"']$//'| \
       xargs cat | \
       pandoc -f markdown --variable fontsize=10pt \
-              --variable mainfont="Arial" \
-             --variable documentclass=scrbook --toc --pdf-engine=xelatex -o book.pdf
+              --variable=geometry:b5paper \
+             --toc --pdf-engine=xelatex -o book.pdf
   else
     echo "File '$SUMMARY_FILE' does not exist"
   fi
