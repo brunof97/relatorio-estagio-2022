@@ -8,4 +8,4 @@ Ao utilizar os scriptable objects torna mais fácil a alteração de valores e t
 
 ### Animator Controller
 
-O Animation Controller é uam ferramenta do Unity que permite a criação de várias animações num GameObject. Assim é possível executar uma animação diferente conforme o comportamento desejado. Em cada animação é possível alterar as posições do GameObject através de key frames.&#x20;
+O Animation Controller é uma ferramenta do Unity que permite a criação de várias animações num GameObject. Assim é possível executar uma animação diferente conforme o comportamento desejado. Em cada animação é possível alterar as posições do GameObject através de key frames.&#x20;

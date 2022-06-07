@@ -2,7 +2,7 @@
 
 O software usado foi o seguinte:
 
-Consultar secção sobre Estudo e Levantamento de Ferramentas
+Para maior detalhe sobre o software utilizado, consultar secção sobre Estudo e Levantamento de Ferramentas
 
 Foi usado um computador com as seguintes características:&#x20;
 
