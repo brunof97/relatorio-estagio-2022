@@ -2,6 +2,8 @@
 
 O software usado foi o seguinte:
 
+Para maior detalhe sobre o software utilizado, consultar secção sobre Estudo e Levantamento de Ferramentas
+
 Foi usado um computador com as seguintes características:&#x20;
 
 Sistema Operativo: Windows 10 Pro
