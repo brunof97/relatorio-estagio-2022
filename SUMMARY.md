@@ -16,7 +16,7 @@
   * [Plano de Trabalho do Estágio](introducao/plano-de-trabalho-do-estagio.md)
   * [Organização do Relatório](introducao/organizacao-do-relatorio.md)
 * [Apresentação do Local de Trabalho](apresentacao-do-local-de-trabalho/README.md)
-  * [A empresa “Cooperativa de Profissionais de Desenvolvimento de Software (CPDS), CRL “](apresentacao-do-local-de-trabalho/a-empresa-cooperativa-de-profissionais-de-desenvolvimento-de-software-cpds-crl.md)
+  * [A empresa Cooperativa de Profissionais de Desenvolvimento de Software (CPDS), CRL](apresentacao-do-local-de-trabalho/a-empresa-cooperativa-de-profissionais-de-desenvolvimento-de-software-cpds-crl.md)
   * [Funções genéricas](apresentacao-do-local-de-trabalho/funcoes-genericas.md)
   * [Áreas funcionais](apresentacao-do-local-de-trabalho/areas-funcionais.md)
 * [Fundamentos Teóricos](fundamentos-teoricos/README.md)

@@ -1,3 +1,5 @@
+
+
 # Abstract
 
 This document aims to describe the work done in the “Projeto Final / Estágio” course that is included in study program of the Undergraduate degree on Computer Graphics and Multimedia Engineering (ECGM), of School of Technology and Management (ESTG) of Polytechnic Institute of Viana do Castelo (IPVC).

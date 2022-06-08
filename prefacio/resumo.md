@@ -1,3 +1,4 @@
+
 # Resumo
 
 
@@ -8,4 +9,4 @@ O Projeto Final/Estágio tem a duração de 270 horas totais, das quais 80 horas
 
 Neste caso, o Projeto Final/Estágio decorreu na empresa Cooperativa de Profissionais de Desenvolvimento de Software (CPDS), CRL , sediada em Rua de Santa Cristina, 160, Bloco 4, 1 Direito, Meadela, 4900-810 Viana do Castelo , sob a supervisão de Miguel Barros, na empresa, e da Prof. Paula Rego , na ESTG-IPVC.
 
-&#x20;O trabalho de Projeto Final / Estágio consistiu em
+O trabalho de Projeto Final / Estágio consistiu em

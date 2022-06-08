@@ -1,3 +1,4 @@
+
 # Fundamentos Teóricos
 
 // Acrescentar secções neste capítulo de acordo com o que for necessário&#x20;
