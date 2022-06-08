@@ -1,3 +1,4 @@
+
 # Síntese do Trabalho
 
 // Voltar a referir qual era o objetivo principal do trabalho (problema proposto)&#x20;

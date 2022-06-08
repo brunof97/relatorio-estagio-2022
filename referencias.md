@@ -1,3 +1,4 @@
+
 # Referências
 
 // Coloque aqui bibliografia relacionada com o trabalho que desenvolveu que referenciou no relatório&#x20;
@@ -17,3 +18,5 @@ Cláudia Pernencar e Isabel Alcobia, Photoshop, CS5 & CS4 – Depressa e Bem, FC
 &#x20;// título da referência (tópico ou assunto), acedido de \<endereço URL>, data em que foi acedida&#x20;
 
 // Exemplos: Snell, S. (2015). 40 Photoshop Tutorials for Lighting and Abstract Effects, Acedido em 21 de março de 2020 de http://vandelaydesign.com/blog/design/photoshop-lighting-effects/ Adobe (2020). Photoshop Tutorials, Acedido em 21 de março de 2020 de https://helpx.adobe.com/photoshop/tutorials.html
+
+\pagebreak
