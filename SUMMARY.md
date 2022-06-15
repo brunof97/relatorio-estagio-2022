@@ -29,7 +29,7 @@
     * [SourceTree](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/sourcetree.md)
     * [Bitbucket](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/bitbucket.md)
     * [GitHub](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/github.md)
-    * [Csharp](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/c.md)
+    * [C#](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/c.md)
     * [Rider](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/rider.md)
     * [Unity](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/unity.md)
     * [GitBook](desenvolvimento-do-trabalho-de-estagio/estudo-e-levantamento-das-ferramentas/gitbook.md)

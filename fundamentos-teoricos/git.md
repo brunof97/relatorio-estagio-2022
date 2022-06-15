@@ -1,16 +1,16 @@
 # Git
 
-O Git é um sistema de controlo de versões grátis e open source, desenhado para fazer o controlo de versões em todo o tipo de projetos desde projetos pequenos a projetos mais complexos. Foi desenvolvido em 2005 por Linus Torvalds, criador do sistema operativo Linux.
+O Git é um sistema de controlo de versões grátis, desenhado para fazer o controlo de versões em todo o tipo de projetos. Foi desenvolvido em 2005 por Linus Torvalds, criador do sistema operativo Linux.
 
 ### Porquê usar o Source Control
 
-O Source Control é a melhor pratica de trabalho numa equipa de desenvolvimento de software. Ajuda os developers a trabalhar mais rápido e permite á equipas trabalhar com melhor eficiência e agilidade pois as equipas irão ter mais developers a trabalhar num projeto.
+O Source Control é a melhor prática de trabalho numa equipa de desenvolvimento de software. Ajuda os developers a trabalhar mais rápido e permite á equipas trabalhar com melhor eficiência e agilidade pois às equipas irão ter mais developers a trabalhar num projeto.
 
 Com isto existem alguns benefícios em trabalhar com Source Control:
 
-* O facto de podermos voltar um qualquer versão do projeto, podendo assim tentar perceber a origem de alguns problemas revertendo para a ultima versão estável.
+* O facto de podermos voltar a qualquer versão do projeto, podendo assim tentar perceber a origem de problemas revertendo para a ultima versão estável.
 * O facto de estarmos a trabalhar em branches permite que vários developers trabalhem no projeto ao mesmo tempo, desempenhando tarefas diferentes, cada uma no seu branch.
-* O facto de podermos ver as alterações feitas feitas por cada pessoa juntamente com uma mensagem a descrever essas alterações ajuda a perceber o que foi feito no projeto.
+* O facto de podermos ver as alterações feitas por cada pessoa juntamente com uma mensagem a descrever essas alterações ajuda a perceber o que foi feito no projeto.
 
 ### Autenticação
 
@@ -18,13 +18,13 @@ Existem dois tipos de autenticação para o GIT, HTTPS e SSH. Com o HTTPS temos 
 
 ### Porque não fazer alterações no Main Trunk
 
-Não se deve trabalhar no Main Trunk (na maioria dos casos conhecido por master) pois quando forem feitas alterações podem criar conflitos com alterações que estão a ser feitas por outros developers ao mesmo tempo. Por isso é importante o conceito de branch que permite que várias pessoas trabalhem no mesmo projeto em simultâneo sem haver problemas de prejudicar o trabalho uns dos outros.
+Não se deve trabalhar no Main Trunk (na maioria dos casos conhecido por master ou main) pois quando forem feitas alterações podem criar conflitos com alterações que estão a ser feitas por outros developers ao mesmo tempo. Por isso é importante o conceito de branch que permite que várias pessoas trabalhem no mesmo projeto em simultâneo sem haver problemas de prejudicar o trabalho uns dos outros.
 
 ### Branch
 
 ![Exemplo de branch num projeto](../.gitbook/assets/branch\_esquema.png)
 
-Um Branch é uma linha de desenvolvimento independente. Serve para haver um local seguro para fazer alterações no projeto, sem comprometer todo o projeto. Nele são guardados os Commits ate que haja um Push.
+Um Branch é uma linha de desenvolvimento independente. Serve para haver um local seguro para fazer alterações no projeto, sem comprometer todo o projeto. Nele, são guardados os Commits até que haja um Push.
 
 Existe sempre um Main Branch que é o Branch do projeto e também existem Branches que são criados á medida que o projeto está a decorrer quando é necessária a implementação de uma nova feature ou quando é necessário haver um fix de um problema no projeto.
 
@@ -49,7 +49,7 @@ O Pull Request é um mecanismo que serve para o developer notificar a sua equipa
 #### Passos de um Pull Request
 
 * O developer cria um Branch de uma nova feature no seu repositório local
-* O developer faz Push para o repositório remoto
-* O developer apresenta um Pull Request
+* É feito Push para o repositório remoto
+* O Pull Request é realizado
 * O resto da equipa faz review das alterações, discutindo e pedindo para fazer alterações se necessário
 * O diretor do projeto aprova as alterações, faz merge para o repositório oficial e fecha o Pull Request

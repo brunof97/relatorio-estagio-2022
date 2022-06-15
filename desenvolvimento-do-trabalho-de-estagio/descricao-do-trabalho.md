@@ -12,7 +12,7 @@ Para a realização do presente relatório de estágio, foi-me  sugerido a cria�
 
 ### Quality Assurance (QA) e Bug fixing
 
-Nos primeiros dias do meu estágio na Cooperativa, realizei um pouco de Quality Assurance (QA) com o objetivo de testar o projeto e fazer um levantamento de Bugs e features que pudessem ser melhoradas no jogo.
+Nos primeiros dias do meu estágio na Cooperativa, trabalhei em Quality Assurance (QA) com o objetivo de testar o projeto e fazer um levantamento de Bugs e features que pudessem ser melhoradas no jogo.
 
 Após o primeiro levantamento de Bugs foram criadas novas tasks no ClickUp de modo a organizar o trabalho e oferecer visibilidade das tarefas aos coordenadores. Seguidamente tive de tentar encontrar a origem dos Bugs encontrados através de debuging do código, tentando encontrar alguma irregularidade que possa estar na origem do problema ao qual quero resolver. Para isso algumas das ferramentas que me foram bastante uteis  foram a utilização de Assertions e Debug Logs que me ajudavam a visualizar os estados de algumas variáveis ou os seus valores na consola do Unity de modo a perceber melhor como está a ser executado o código.
 
@@ -32,7 +32,7 @@ Quando tentamos resolver um bug temos duas opções, resolver o bug por completo
 
 ### Implementação de novas features no jogo
 
-Com o decorrer do estágio foi-me pedido o melhoramento e a implementação de novas features no jogo.&#x20;
+Com o decorrer do estágio foi-me pedido o melhoramento e a implementação de novas features no jogo, nomeadamente :
 
 #### Implementação de novos steps no Tutorial
 
@@ -64,9 +64,7 @@ Passos para criar um novo Tutorial:
 * Criar os Tutorial Indicators necessários para esse Tutorial
 * Acrescentar os Tutorial Indicators ao novo Tutorial
 
-![Tutorial Manager na Hierarquia do projeto](../.gitbook/assets/tutorial1.png)
-
-![Tutorial Manager no Inspector](../.gitbook/assets/tutorial2.png)
+![Tutorial Manager](../.gitbook/assets/tutorial2.png)
 
 ![Tutorial Indicator](../.gitbook/assets/tutorial3.png)
 
@@ -76,13 +74,13 @@ Ainda nos melhoramentos do jogo, atualizou-se os preços dos items no jogo e nos
 
 ![Scriptable object ond eforam alterados os dados do items](<../.gitbook/assets/scriptable object.png>)
 
-![Google Play Console](<../.gitbook/assets/google play console.png>)
-
-![In App Products](<../.gitbook/assets/google play console 2.png>)
+![Google Play Console](<../.gitbook/assets/google play console 2.png>)
 
 #### Implementação de uma animação do Battle Eye
 
-Quando o jogador procura uma nova partida, aparece um pop-up até que seja encontrado um adversário. Era necessário dar feedback ao jogador que havia de facto uma procura a acontecer nesse momento. Para isso recorreu-se á animação do "Batte Eye", um elemtento 2D, onde se procedeu á animação do mesmo, animando a pupila para andar de um lado para o outro, simulando o movimento do olho. Para isso pegou-se na imagem e no Photoshop separar os dois elementos da imagem, olho e pupila, de modo a ter dois elementos para realizar a animação. Após obter os dois elementos da imagem utilizou-se o animator do unity para fazer a animação onde o olho agora fica a olhar de um lado para o outro enquanto procura por um adversário.
+Quando o jogador procura uma nova partida, aparece um pop-up até que seja encontrado um adversário. Era necessário dar feedback ao jogador que havia de facto uma procura a acontecer nesse momento. Para isso recorreu-se à animação do "Batte Eye", um elemtento 2D, onde se procedeu à animação do mesmo, animando a pupila para andar de um lado para o outro, simulando o movimento do olho.
+
+De modo a separar os elementos, olho e pupila, para a consequente animação, foi utilizado o  Photoshop. Após obter os dois elementos da imagem utilizou-se as animações do Unity para fazer a animação onde o olho agora fica a olhar de um lado para o outro enquanto procura por um adversário.
 
 ![Imagem "Battle Eye" que foi animada no Unity](<../.gitbook/assets/Battle Eye.png>)
 
@@ -90,20 +88,18 @@ Quando o jogador procura uma nova partida, aparece um pop-up até que seja encon
 
 O projeto recorre a uma moeda de jogo chamada Fairy Dust. Os jogadores recorrem a essa moeda para comprar itens nesse jogo. O Fairy Dust pode também ser utilizado para adquirir o battle pass que irá permitir ao jogador obter mais itens.
 
-Por isso é bastante importante ter nos bundles onde podemos comprar Fairy Dust na aplicação umas imagens apelativas e que demonstrem ao utilizador o tipo de bundle que está prestes a comprar.
+Por isso é bastante importante ter nos bundles onde podemos comprar Fairy Dust na aplicação imagens apelativas que demonstrem ao utilizador o tipo de bundle que está prestes a comprar.
 
-Foi me fornecida numa imagem que continha todos os elementos a ser utilizados e no Photoshop, separou-se esses elementos sempre com o cuidado de o tamanho da imagem ser em Power Of Two, ou seja deveriam ter o mesmo numero de pixéis em altura e largura e esses têm de ser exponenciais de 2 (2,4,8,16,32...).É necessário o tamanho ser em Power Of Two para não aumentar o tamanho da aplicação. Por exemplo as imagens podem ser 1024x1024 pixéis. Criou-se também uma imagem para um novo item de 200 Fairy Dust para substituir as color pallets que foram retirados do jogo a pedido do cliente e eram algumas das recompensas do Battle Pass.
-
-![](<../.gitbook/assets/bundle 5.png>) ![](<../.gitbook/assets/bundle 20.png>) ![](<../.gitbook/assets/200 fairy dust.png>) ![](<../.gitbook/assets/bundle 50.png>) ![](<../.gitbook/assets/bundle 100.png>)
+Foi me fornecida numa imagem que continha todos os elementos a ser utilizados e no Photoshop, separou-se esses elementos sempre com o cuidado de o tamanho da imagem ser em Power Of Two, ou seja o tamanho dos pixeis em altura e largura exponenciais de 2 (2,4,8,16,32...).É necessário o tamanho ser em Power Of Two para não aumentar o tamanho da aplicação. Por exemplo as imagens podem ser 1024x1024 pixéis. Criou-se também uma imagem para um novo item de 200 Fairy Dust para substituir as color pallets que foram retiradas do jogo a pedido do cliente e eram algumas das recompensas do Battle Pass.
 
 #### Remoção das color pallets&#x20;
 
-Como já foi referido, as color palllets foram removidas do jogo pois na ótica do cliente, o trabalho que dava a criação das color pallets de modo a obter um resultado satisfatório não compensava o pouco que iriam acrescentar ao jogo, sendo estas substituídas por outros items.&#x20;
+Como já foi referido, as color pallets foram removidas do jogo pois na ótica do cliente, o trabalho que dava a criação das color pallets de modo a obter um resultado satisfatório não compensava o pouco que iriam acrescentar ao jogo, sendo estas substituídas por outros items.&#x20;
 
-Para remover esta feature, começou-se por ver onde estava a ser utilizada, anotando todas as referencias à color pallet no código do projeto. Após terem sido obtidas todas as referencias é iniciado o processo de remoção das mesmas removendo-se uma referência de cada vez. Cada vez que era removida uma referencia à color pallet, era necessário testar o jogo para verificar se estava tudo funcional. Quando se verificava que estava tudo funcional, era feito um commit dessa remoção para o branch. Este processo foi repetido até que todas as referencias estivessem removidas.
+Para remover esta feature, começou-se por ver onde estava a ser utilizada, anotando todas as referências à color pallet no código do projeto. Após terem sido obtidas todas as referências é iniciado o processo de remoção das mesmas removendo-se uma referência de cada vez. Cada vez que era removida uma referencia à color pallet, era necessário testar o jogo para verificar se estava tudo funcional. Quando se verificava que estava tudo funcional, era feito um commit dessa remoção para o branch. Este processo foi repetido até que todas as referencias estivessem removidas.
 
 ![Delete Color Pallet branch](../.gitbook/assets/collorPallet.png)
 
 #### Utilização de 1 SuperMove por jogada
 
-Os SuperMoves são ataques especiais que o jogador adquire quando um dos seus personagens morre. No inicio os jogadores apenas poderiam utilizar cada SuperMove uma vez por jogo, mas durante uma reunião com o cliente, o mesmo propôs a utilização de cada SuperMove uma vez em cada jogada, dependendo dos SuperMoves disponíveis, uma quando morre o seu primeiro jogador, duas quando morre o segundo e sempre assim até ao máximo de quatro SuperMoves. Como não se sabia se a feature ia ser definitiva, decidiu-se criar esta feature como uma Feature Flag, ou seja, criou-se um booleano que se estivesse a true a feature estava ligada e se estivesse a false estaria desligada, de modo a que se pudesse testar das duas maneiras mudando apenas o valor de uma única variável. &#x20;
+Os SuperMoves são ataques especiais que o jogador adquire quando um dos seus personagens morre. No início os jogadores apenas poderiam utilizar cada SuperMove uma vez por jogo, mas durante uma reunião com o cliente, o mesmo propôs a utilização de cada SuperMove uma vez em cada jogada, dependendo dos SuperMoves disponíveis, uma quando morre o seu primeiro jogador, duas quando morre o segundo e sempre assim até ao máximo de quatro SuperMoves. Como não se sabia se a feature ia ser definitiva, decidiu-se criar esta feature como uma Feature Flag, ou seja, criou-se um booleano que se estivesse a true a feature estava ligada e se estivesse a false estaria desligada, de modo a que se pudesse testar das duas maneiras mudando apenas o valor de uma única variável. &#x20;

@@ -1,10 +1,10 @@
 # Organização do Relatório
 
-// Apresentar a estrutura do relatório: descrever resumidamente o que é tratado em cada capítulo.&#x20;
+O presente relatório está organizado em quatro capítulos que se descrevem a seguir.
 
-\
-O presente relatório está organizado em cinco capítulos que se descrevem a seguir.
 
-&#x20;O capítulo 1 apresenta …….&#x20;
 
-O capítulo 2 ……
+* O capitulo 1 apresenta a Cooperativa de Profissionais de Desenvolvimento de Software (CPDS), as suas funções genéricas e áreas funcionais.
+* O capitulo 2 contém os fundamentos teóricos com os conceitos que aprendi relacionados com o Unity e com o GIT.
+* O capitulo 3 aborda o desenvolvimento do trabalho de estágio onde podemos ver a metodologia de trabalho, um estudo e levantamento das ferramentas utilizadas no projeto e uma descrição do trabalho realizado na CPDS.
+* O capitulo 4 expõe as conclusões, incluindo a síntese do trabalho, a discussão dos resultados e o trabalho futuro.
