@@ -1,3 +1,4 @@
+
 # Unity
 
 O Unity é um motor de jogo desenvolvido pela Unity Tecnoligies. Este foi o motor de jogo escolhido para o projeto.
@@ -16,5 +17,6 @@ O Unity Animation  permite a criação de várias animações num GameObject. Em
 
 O Odin inspector é um plugin para o unity criado com o objetivo de dar aos seus utilizadores um melhor workflow no unity.O Od AOT (ahead of time) Serialization onde é analisado todo o projeto e guardado todos os assets e scenes do projeto. Depois de realizar o scan do projeto, podemos gerar o DLL mais atualizado antes de fazer a build. Este scan pode ser importante se for retirado do projeto alguma feature que deixe alguns resíduos no projeto, evitando assim problemas futuros.
 
+\pagebreak
 
 

@@ -1,3 +1,4 @@
+
 # Funções genéricas
 
 A Cooperativa de Profissionais de Desenvolvimento de Software (CPDS) conta com várias funções tais como:

@@ -1,4 +1,6 @@
-# Relatório Estágio 2022
+\pagebreak
+
+# Relatório Estágio 2022 - Turn Based RPG Mobile
 
 ## INSTITUTO POLITÉCNICO DE VIANA DO CASTELO
 
@@ -18,6 +20,8 @@ Orientador/Tutor na Empresa: Miguel Barros
 
 Orientador na ESTG: Prof. Paula Rego
 
-Data:
+Data:Junho 2022
 
-Repositório:git@github.com:brunof97/relatorio-estagio-2022.git
+Repositório:https://github.com/brunof97/relatorio-estagio-2022.git
+
+\pagebreak

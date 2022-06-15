@@ -1,3 +1,4 @@
+
 # Git
 
 O Git é um sistema de controlo de versões grátis, desenhado para fazer o controlo de versões em todo o tipo de projetos. Foi desenvolvido em 2005 por Linus Torvalds, criador do sistema operativo Linux.
@@ -22,7 +23,7 @@ Não se deve trabalhar no Main Trunk (na maioria dos casos conhecido por master 
 
 ### Branch
 
-![Exemplo de branch num projeto](../.gitbook/assets/branch\_esquema.png)
+![Exemplo de branch num projeto](.gitbook/assets/branch\_esquema.png)
 
 Um Branch é uma linha de desenvolvimento independente. Serve para haver um local seguro para fazer alterações no projeto, sem comprometer todo o projeto. Nele, são guardados os Commits até que haja um Push.
 
@@ -34,7 +35,7 @@ Se necessário podemos sempre reverter para o estado de um Branch anterior.
 
 O comando Push é utilizado quando queremos fazer upload das mudanças de um repositório local para um repositório remoto. Assim as mudanças ficam visíveis para todos os elementos da equipa.
 
-![Esquema antes e depois de um Push](../.gitbook/assets/push\_esquema.png)
+![Esquema antes e depois de um Push](.gitbook/assets/push\_esquema.png)
 
 ### Pull
 
@@ -53,3 +54,5 @@ O Pull Request é um mecanismo que serve para o developer notificar a sua equipa
 * O Pull Request é realizado
 * O resto da equipa faz review das alterações, discutindo e pedindo para fazer alterações se necessário
 * O diretor do projeto aprova as alterações, faz merge para o repositório oficial e fecha o Pull Request
+
+\pagebreak

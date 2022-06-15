@@ -1,3 +1,4 @@
+
 # Referências
 
 GIT, https://git-scm.com,Acedido em  9 de maio de 2022
@@ -25,4 +26,6 @@ Slack, [https://slack.com/intl/pt-br/help/articles/115004071768-O-que-%C3%A9-o-S
 Animation, [https://docs.unity3d.com/Manual/AnimationSection.html](https://docs.unity3d.com/Manual/AnimationSection.html), Acedido em 6 de junho de 2022
 
 Odin AOT Serialization, [https://odininspector.com/tutorials/serialize-anything/aot-serialization-odin aot](https://odininspector.com/tutorials/serialize-anything/aot-serialization), Acedido em 13 de junho de 2022
+
+\pagebreak
 

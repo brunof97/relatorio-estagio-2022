@@ -1,3 +1,4 @@
+
 # Click Up
 
 O ClickUp é um software de gestão de tarefas utilizado pelos membros da CPDS de modo a gerir o flow de trabalho de cada membro. Aqui é possivel criar novas tarefas e atribuir  a um ou mais membros da equipa.

@@ -1,3 +1,4 @@
+
 # Metodologia de Trabalho
 
 Durante a realização do projeto na Cooperativa de Profissionais de Desenvolvimento de Software (CPDS) segui a metodologia de trabalho da mesma no projeto em que estive inserido.
@@ -10,4 +11,4 @@ Quando a tarefa estava terminada, era colocada no status "In Review" e era feito
 
 Finalmente quando era aprovado o Pull Request o status da tarefa era mudado para "Closed"
 
-&#x20;
+\pagebreak

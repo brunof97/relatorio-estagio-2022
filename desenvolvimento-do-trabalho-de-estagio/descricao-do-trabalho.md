@@ -1,14 +1,16 @@
+
 # Descrição do Trabalho
 
 Na Cooperativa de Profissionais de Desenvolvimento de Software (CPDS) os membros encabeçam vários projetos. Como parte do meu estágio estive inserido num desses projetos, um Turn base mobile RPG.
 
-Este jogo pertence a um cliente da CPDS que é dono de um pequeno estúdio independente americano, a "Red Blue Games". O seu fundador e nosso cliente é um game designer que desenvolve pequenos projetos de videojogos e jogos de tabuleiro. &#x20;
 
 ### Criação de um GitBook para o relatório&#x20;
 
 Para a realização do presente relatório de estágio, foi-me  sugerido a criação de um GitBook, de modo a que os orientadores conseguissem ver as alterações que eram feitas à medida que o relatório ia sendo escrito. Para isso criou-se um novo repositório no meu GitHub no qual existem dois branches, master e develop. Com base no GitBook e num flow de desenvolvimento de Git, foi possível fazer alterações ao relatório que foram revistas incrementalmente, colocando os orientadores como reviwers para poderem ver as alterações feitas e se necessário fazer algum comentário sobre o que pode ser melhorado. Quando o Pull Request é aceite, as alterações são efetuadas no branch master.
 
-![Esquema de  branches](../.gitbook/assets/github.png)
+![Esquema de  branches](.gitbook/assets/github.png)
+
+\pagebreak
 
 ### Quality Assurance (QA) e Bug fixing
 
@@ -16,19 +18,21 @@ Nos primeiros dias do meu estágio na Cooperativa, trabalhei em Quality Assuranc
 
 Após o primeiro levantamento de Bugs foram criadas novas tasks no ClickUp de modo a organizar o trabalho e oferecer visibilidade das tarefas aos coordenadores. Seguidamente tive de tentar encontrar a origem dos Bugs encontrados através de debuging do código, tentando encontrar alguma irregularidade que possa estar na origem do problema ao qual quero resolver. Para isso algumas das ferramentas que me foram bastante uteis  foram a utilização de Assertions e Debug Logs que me ajudavam a visualizar os estados de algumas variáveis ou os seus valores na consola do Unity de modo a perceber melhor como está a ser executado o código.
 
-{% code title="Exemplo de Debug Log" %}
+Exemplo de Debug Log
 ```csharp
 Debug.LogError( $"endZonePoints{endZonePoints.Count}" );
 ```
-{% endcode %}
 
-{% code title="Exemplo de Assertion" %}
+
+"Exemplo de Assertion"
 ```csharp
 Assert.IsTrue( CurrentBoardState != null );
 ```
-{% endcode %}
+
 
 Quando tentamos resolver um bug temos duas opções, resolver o bug por completo ou fazer um hot-fix. Um hot-fix é usado quando queremos uma resolução rápida do problema para lançar uma feature nova. Ao usar um hot-fix podemos inadvertidamente criar Technical Debt, ou seja , implica voltar ao código mias tarde para melhorar a resolução ou a performance do que foi alterado, o que por vezes não é a melhor solução pois estamos a deixar para mais tarde o que se pode fazer no momento, mas por vezes é a forma de conseguir que a feature seja lançada no tempo previsto.
+
+\pagebreak
 
 ### Implementação de novas features no jogo
 
@@ -36,9 +40,9 @@ Com o decorrer do estágio foi-me pedido o melhoramento e a implementação de n
 
 #### Implementação de novos steps no Tutorial
 
-No projeto os tutoriais estão guardados num GameObject chamado Tutorial Manager, onde existem listas de Tutoriais.&#x20;
+No projeto os tutoriais estão guardados num GameObject chamado Tutorial Manager, onde existem listas de Tutoriais.
 
-Cada Tutorial contém:&#x20;
+Cada Tutorial contém:
 
 * Id
 * Screen onde vai ser aplicado
@@ -55,7 +59,7 @@ Uma das tarefas que desempenhei na CPDS foi a implementação de novos passos no
 
 Passos para acrescentar novos passos a um tutorial:
 
-* Criar um novo Turorial Indicator&#x20;
+* Criar um novo Turorial Indicator
 * Colocar o novo Tutorial Indicator no tutorial desejado
 
 Passos para criar um novo Tutorial:
@@ -64,17 +68,24 @@ Passos para criar um novo Tutorial:
 * Criar os Tutorial Indicators necessários para esse Tutorial
 * Acrescentar os Tutorial Indicators ao novo Tutorial
 
-![Tutorial Manager](../.gitbook/assets/tutorial2.png)
+![Tutorial Manager](.gitbook/assets/tutorial2.png)
 
-![Tutorial Indicator](../.gitbook/assets/tutorial3.png)
+
+![Tutorial Indicator](.gitbook/assets/tutorial3.png)
+
+\pagebreak
 
 #### Correção de preços de items e In-app products
 
 Ainda nos melhoramentos do jogo, atualizou-se os preços dos items no jogo e nos In-app products, que são produtos que podem ser adquiridos diretamente na aplicação, onde peguei numa spreeadsheet facultada pelo cliente e atualizei os preços e descrição dos items no scriptable object dos items do jogo, bem como na Google Play Console, onde fiquei a perceber como funciona o sistema de pagamento e de atualização de valores da Google.
+\newline
 
-![Scriptable object ond eforam alterados os dados do items](<../.gitbook/assets/scriptable object.png>)
+![Scriptable object onde foram alterados os dados do items](<.gitbook/assets/scriptable_object.png>)
 
-![Google Play Console](<../.gitbook/assets/google play console 2.png>)
+
+![Google Play Console](<.gitbook/assets/google_play_console_2.png>)
+
+\pagebreak
 
 #### Implementação de uma animação do Battle Eye
 
@@ -82,7 +93,10 @@ Quando o jogador procura uma nova partida, aparece um pop-up até que seja encon
 
 De modo a separar os elementos, olho e pupila, para a consequente animação, foi utilizado o  Photoshop. Após obter os dois elementos da imagem utilizou-se as animações do Unity para fazer a animação onde o olho agora fica a olhar de um lado para o outro enquanto procura por um adversário.
 
-![Imagem "Battle Eye" que foi animada no Unity](<../.gitbook/assets/Battle Eye.png>)
+
+![Imagem "Battle Eye" que foi animada no Unity](<.gitbook/assets/Battle_Eye.png>)
+
+
 
 #### Trocar imagens nos bundles de Fairy Dust
 
@@ -98,8 +112,10 @@ Como já foi referido, as color pallets foram removidas do jogo pois na ótica d
 
 Para remover esta feature, começou-se por ver onde estava a ser utilizada, anotando todas as referências à color pallet no código do projeto. Após terem sido obtidas todas as referências é iniciado o processo de remoção das mesmas removendo-se uma referência de cada vez. Cada vez que era removida uma referencia à color pallet, era necessário testar o jogo para verificar se estava tudo funcional. Quando se verificava que estava tudo funcional, era feito um commit dessa remoção para o branch. Este processo foi repetido até que todas as referencias estivessem removidas.
 
-![Delete Color Pallet branch](../.gitbook/assets/collorPallet.png)
+![Delete Color Pallet branch](.gitbook/assets/collorPallet.png)
 
 #### Utilização de 1 SuperMove por jogada
 
-Os SuperMoves são ataques especiais que o jogador adquire quando um dos seus personagens morre. No início os jogadores apenas poderiam utilizar cada SuperMove uma vez por jogo, mas durante uma reunião com o cliente, o mesmo propôs a utilização de cada SuperMove uma vez em cada jogada, dependendo dos SuperMoves disponíveis, uma quando morre o seu primeiro jogador, duas quando morre o segundo e sempre assim até ao máximo de quatro SuperMoves. Como não se sabia se a feature ia ser definitiva, decidiu-se criar esta feature como uma Feature Flag, ou seja, criou-se um booleano que se estivesse a true a feature estava ligada e se estivesse a false estaria desligada, de modo a que se pudesse testar das duas maneiras mudando apenas o valor de uma única variável. &#x20;
+Os SuperMoves são ataques especiais que o jogador adquire quando um dos seus personagens morre. No início os jogadores apenas poderiam utilizar cada SuperMove uma vez por jogo, mas durante uma reunião com o cliente, o mesmo propôs a utilização de cada SuperMove uma vez em cada jogada, dependendo dos SuperMoves disponíveis, uma quando morre o seu primeiro jogador, duas quando morre o segundo e sempre assim até ao máximo de quatro SuperMoves. Como não se sabia se a feature ia ser definitiva, decidiu-se criar esta feature como uma Feature Flag, ou seja, criou-se um booleano que se estivesse a true a feature estava ligada e se estivesse a false estaria desligada, de modo a que se pudesse testar das duas maneiras mudando apenas o valor de uma única variável. 
+
+\pagebreak
