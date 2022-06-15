@@ -1,3 +1,4 @@
+
 # Lista de Software e Hardware usado
 
 O software usado foi o seguinte:

@@ -18,7 +18,7 @@ Existem dois tipos de autenticação para o GIT, HTTPS e SSH. Com o HTTPS temos 
 
 ### Porque não fazer alterações no Main Trunk
 
-Não se deve trabalhar no Main Trunk, na maioria dos casos conhecido por master, pois quando forem feitas alterações podem criar conflitos com alterações que estão a ser feitas por outros developers ao mesmo tempo. Por isso é importante o conceito de branch que permite que várias pessoas trabalhem no mesmo projeto em simultâneo sem haver problemas de prejudicar o trabalho uns dos outros.
+Não se deve trabalhar no Main Trunk (na maioria dos casos conhecido por master) pois quando forem feitas alterações podem criar conflitos com alterações que estão a ser feitas por outros developers ao mesmo tempo. Por isso é importante o conceito de branch que permite que várias pessoas trabalhem no mesmo projeto em simultâneo sem haver problemas de prejudicar o trabalho uns dos outros.
 
 ### Branch
 

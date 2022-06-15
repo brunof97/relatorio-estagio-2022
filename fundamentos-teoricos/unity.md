@@ -9,3 +9,10 @@ Ao utilizar os scriptable objects torna mais fácil a alteração de valores e t
 ### Animator Controller
 
 O Animation Controller é uma ferramenta do Unity que permite a criação de várias animações num GameObject. Assim é possível executar uma animação diferente conforme o comportamento desejado. Em cada animação é possível alterar as posições do GameObject através de key frames.&#x20;
+
+### Odin AOT Serialization
+
+O Odin inspector é um plugin para o unity criado com o objetivo de dar aos seus utilizadores um melhor workflow no unity.O Od AOT (ahead of time) Serialization onde é analisado todo o projeto e guardado todos os assets e scenes do projeto. Depois de realizar o scan do projeto, podemos gerar o DLL mais atualizado antes de fazer a build. Este scan pode ser importante se for retirado do projeto alguma feature que deixe alguns resíduos no projeto, evitando assim problemas futuros.
+
+
+

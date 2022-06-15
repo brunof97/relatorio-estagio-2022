@@ -34,11 +34,35 @@ Quando tentamos resolver um bug temos duas opções, resolver o bug por completo
 
 Com o decorrer do estágio foi-me pedido o melhoramento e a implementação de novas features no jogo.&#x20;
 
-#### Implementação de novos steps no tutorial
+#### Implementação de novos steps no Tutorial
 
-Um exemplo de melhoramento de uma feature foi a implementação de novos passos no tutorial do jogo. Esta tarefa consistiu em adicionar novos steps em tutoriais ja existentes no projeto e na criação de novos tutoriais.
+No projeto os tutoriais estão guardados num GameObject chamado Tutorial Manager, onde existem listas de Tutoriais.&#x20;
 
-Para isso, nos tutoriais que era necessário acrescentar passos a um tutorial já existente tinha de criar um novo tutorial indicador e depois colocar o mesmo no tutorial desejado no tutorial manager. Se o tutorial desejado não existisse, criou-se um novo tutorial novo no tutorial manager e depois disso criar os tutorial indicators do tutorial.&#x20;
+Cada Tutorial contém:&#x20;
+
+* Id
+* Screen onde vai ser aplicado
+* Lista de Tutorial Indicators
+
+Por sua vez cada Tutorial Indicator contém:
+
+* Id
+* Prefab do Tutorial
+* Mensagem do Tutorial
+* Referencia para o botão a ser pressionado (caso seja aplicável)
+
+Uma das tarefas que desempenhei na CPDS foi a implementação de novos passos no tutorial do jogo. Esta tarefa consistiu em adicionar novos steps em tutoriais ja existentes no projeto e na criação de novos tutoriais.
+
+Passos para acrescentar novos passos a um tutorial:
+
+* Criar um novo Turorial Indicator&#x20;
+* Colocar o novo Tutorial Indicator no tutorial desejado
+
+Passos para criar um novo Tutorial:
+
+* Criar um novo Tutorial no Tutorial Manager
+* Criar os Tutorial Indicators necessários para esse Tutorial
+* Acrescentar os Tutorial Indicators ao novo Tutorial
 
 ![Tutorial Manager na Hierarquia do projeto](../.gitbook/assets/tutorial1.png)
 
@@ -76,7 +100,7 @@ Foi me fornecida numa imagem que continha todos os elementos a ser utilizados e 
 
 Como já foi referido, as color palllets foram removidas do jogo pois na ótica do cliente, o trabalho que dava a criação das color pallets de modo a obter um resultado satisfatório não compensava o pouco que iriam acrescentar ao jogo, sendo estas substituídas por outros items.&#x20;
 
-Para remover esta feature começou-se  por ver onde estava a ser utilizada, anotando todas as referencias á color pallet no código do projeto. Após se ter obtido todas as referencias é iniciado o processo de remoção das mesmas removendo-se uma referência de cada vez e testar o jogo para verificar se estava tudo funcional. Depois de se verificar que continuava tudo funcional, fez-se commit dessa remoção para o branch criado. Este processo foi repetido até  que todas as referencias estivessem removidas.
+Para remover esta feature, começou-se por ver onde estava a ser utilizada, anotando todas as referencias à color pallet no código do projeto. Após terem sido obtidas todas as referencias é iniciado o processo de remoção das mesmas removendo-se uma referência de cada vez. Cada vez que era removida uma referencia à color pallet, era necessário testar o jogo para verificar se estava tudo funcional. Quando se verificava que estava tudo funcional, era feito um commit dessa remoção para o branch. Este processo foi repetido até que todas as referencias estivessem removidas.
 
 ![Delete Color Pallet branch](../.gitbook/assets/collorPallet.png)
 
