@@ -1,8 +1,13 @@
+# Cooperativa de Profissionais de Desenvolvimento de Software (CPDS), CRL
 
-# A empresa Cooperativa de Profissionais de Desenvolvimento de Software (CPDS), CRL
+![Cooperativa de Profissionais de Desenvolvimento de Software](../.gitbook/assets/cpds.png)
 
+Fundada a 17 de fevereiro de 2021, a Cooperativa de Profissionais de Desenvolvimento de Software (CPDS) é uma cooperativa tecnológica sediada na Rua de Santa Cristina, 160, Bloco 4, 1 Direito, Meadela, 4900-810 Viana do Castelo.
 
-//Apresentar uma descrição breve da empresa, qual a sua atividade principal, quando foi criada, onde se situa e outros (imagens, …,)
+Parte incubadora tecnológica, parte espaço de trabalho cooperativo, a CPDS visa cumprir metas sem fins lucrativos, bem como estabelecer um bom ambiente de trabalho para developers independentes e engenheiros de software.
 
-// Para cada figura apresentada neste relatório, deve ser feita a referência à mesma no texto do relatório, antes de esta ser apresentada.
+Como principais objetivos, a CPDS pretende:
 
+* Estabelecer parcerias com todos os developers independentes e entidades ( académicas e profissionais)
+* Providenciar o melhor espaço de trabalho local para developers independentes&#x20;
+* Promover a educação de desenvolvimento de software no publico adolescente ( através de workshops)
