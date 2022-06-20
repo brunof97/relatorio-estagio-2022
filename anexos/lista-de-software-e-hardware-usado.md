@@ -15,4 +15,4 @@ Memória RAM: 16 GB
 
 Disco: 465 GB
 
-Placa Gráfica: Gráficos integrados
+Placa Gráfica: GeForce GT 730

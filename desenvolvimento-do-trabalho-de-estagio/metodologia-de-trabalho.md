@@ -9,6 +9,8 @@ Após colocar a tarefa no status "In Progress" prosseguia á realização da mes
 
 Quando a tarefa estava terminada, era colocada no status "In Review" e era feito um Pull Request colocando como Reviewer os elementos da CPDS para que os mesmos possam solicitar alterações na resolução da tarefa ou aprovar e dar Merge do branch criado para a tarefa.
 
-Finalmente quando era aprovado o Pull Request o status da tarefa era mudado para "Closed"
+Finalmente quando era aprovado o Pull Request o status da tarefa era mudado para "Closed".
+
+No planeamento das tarefas, estas foram subdivididas em pequenas partes de modo a permitir um melhor fluxo de trabalho.
 
 \pagebreak
